@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_reset"
+        android:title="Change password" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="About" />
+    <item
+        android:id="@+id/menu_rate"
+        android:title="Rate" />
+    <item
+        android:id="@+id/menu_moreapps"
+        android:title="More apps" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+</menu>
